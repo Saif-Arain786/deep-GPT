@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.logos{
+    filter: drop-shadow(-5px 5px 5px rgb(50, 40, 40));
+}

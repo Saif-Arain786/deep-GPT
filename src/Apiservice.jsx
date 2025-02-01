@@ -20,7 +20,7 @@ export const GetChatbotResponse = async (message, setStreamingText) => {
 };
 
 // Streaming function
-const streamText = async (text, callback, delay = 50) => {
+const streamText = async (text, callback, delay = 10) => {
   let streamedText = "";
   for (const char of text) {
     streamedText += char;
